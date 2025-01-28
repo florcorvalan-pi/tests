@@ -49,8 +49,8 @@ def save_to_txt(structured_data, output_path):
                     txt_file.write("\t".join(row) + "\n")
                 txt_file.write("\n")
 
-key="1dapUpI2GJRzLrwPznSs3olAUUmxtUjSBo4hIplCWEGZIZX01llfJQQJ99AKACYeBjFXJ3w3AAALACOGM2Zk"
-endpoint="https://snr-document-intelligence.cognitiveservices.azure.com/"
+key=""
+endpoint=""
 file_path = "IS1164-1.pdf"
 
 with open(file_path, "rb") as file:
